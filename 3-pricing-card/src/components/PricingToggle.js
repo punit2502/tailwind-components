@@ -8,7 +8,7 @@ const PricingToggle = () => {
   const [duration, setPlanDuration] = useRecoilState(planDuration);
 
   return (
-    <div className="bg-togglebg py-2 flex items-center px-2 rounded-capsule">
+    <div className="bg-togglebg mt-4 lg:mt-0 py-2 flex items-center self-end lg:self-auto px-2 rounded-capsule">
       <button
         className={classNames(
           "toggle",

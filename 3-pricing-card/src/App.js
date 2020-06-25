@@ -13,13 +13,13 @@ export const planDuration = atom({
 const App = () => {
   return (
     <RecoilRoot>
-      <div className="flex justify-center items-center min-h-screen bg-gray-300">
+      <div className="flex justify-center items-center min-h-screen bg-gray-300 px-4 py-8">
         <div>
-          <div className="flex justify-between mb-12">
+          <div className="flex flex-col lg:flex-row justify-between mb-12">
             <h1 className="font-black text-4xl">Choose your plan</h1>
             <PricingToggle />
           </div>
-          <div className="grid grid-flow-col gap-10">
+          <div className="grid grid-flow-rows lg:grid-flow-col gap-10">
             {plans.map((plan) => (
               <PricingCard key={plan.name} {...plan} />
             ))}
