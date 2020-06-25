@@ -20,8 +20,8 @@ const results = [
 
 const Card = () => {
   return (
-    <div className="flex justify-center items-center lg:px-48 lg:h-screen bg-mainbg text-white">
-      <div className="bg-cardbg px-8 py-10 lg:px-32 lg:py-20 text-center">
+    <div className="flex justify-center items-center lg:px-48 min-h-screen lg:h-screen bg-mainbg text-white">
+      <div className="bg-cardbg px-8 py-10 lg:px-32 lg:py-20 lg:rounded-lg shadow-lg text-center">
         <h1 className="text-2xl font-bold">Our results</h1>
         <div className="grid grid-rows-3 lg:grid-rows-1 lg:grid-cols-3 gap-16 py-16">
           {results.map(({ heading, desc }) => (
