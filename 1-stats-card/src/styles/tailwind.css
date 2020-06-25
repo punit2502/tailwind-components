@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+* {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+a {
+  color: #456aff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@tailwind utilities;
