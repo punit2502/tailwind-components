@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Starter",
+    "pricing": [8.99, 9.99],
+    "description": "Pretium fusce id velit ut tortor pretium. Sit amet consectetur adipiscing elit ut. Condimentum mattis pellentesque id nibh. Euismod elementum.",
+    "featured": true
+  },
+  {
+    "name": "Professional",
+    "pricing": [21.99, 24.99],
+    "description": "Duis at consectetur lorem donec massa sapien faucibus. Ac placerat vestibulum lectus mauris. ",
+    "featured": false
+  }
+]

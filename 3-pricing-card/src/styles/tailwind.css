@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+* {
+  font-family: "Muli", sans-serif;
+}
+
+.toggle {
+  @apply mx-2 transition-colors ease-out duration-500;
+}
+
+.toggle-selected {
+  @apply bg-white px-4 h-full rounded-capsule;
+}
+
+@tailwind utilities;
