@@ -1,3 +1,5 @@
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/punit2502/tailwind-components/tree/master/1-stats-card)
+
 ## Design
 
 https://uidesigndaily.com/posts/sketch-stats-card-statistics-cards-day-1119
